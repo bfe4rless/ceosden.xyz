@@ -18,7 +18,7 @@
     color: #d7b4ff;
   }
 
-  /* Moving grid */
+  /* Static grid */
   .grid {
     position: absolute;
     inset: 0;
@@ -26,13 +26,7 @@
     background-image:
       linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
-    animation: moveGrid 18s linear infinite;
     opacity: 0.35;
-  }
-
-  @keyframes moveGrid {
-    0% { transform: translate(0,0); }
-    100% { transform: translate(-120px, -120px); }
   }
 
   /* Glow orb */
